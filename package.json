@@ -35,6 +35,15 @@
     "warning": "^4.0.2",
     "web-vitals": "^1.0.1"
   },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
