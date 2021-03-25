@@ -1,8 +1,8 @@
 {
   "name": "react-zoom-with-pins",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A component to zoom images and add dynamic pins inside image",
-  "main": "index.js",
+  "main": "src/PinchZoomWithPins.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
