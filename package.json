@@ -1,6 +1,6 @@
 {
   "name": "react-zoom-with-pins",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A component to zoom images and add dynamic pins inside image",
   "main": "src/PinchZoomWithPins.js",
   "scripts": {
@@ -24,24 +24,24 @@
     "url": "https://github.com/hbgaldino/react-zoom-with-pins/issues"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.13",
-    "@fortawesome/free-solid-svg-icons": "^5.7.0",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "reselect": "^4.0.0",
     "styled-components": "^5.2.1",
-    "warning": "^4.0.2",
+    "warning": "^4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "babel": {
-    "presets": [
-      "@babel/env",
-      "@babel/react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-class-properties"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {

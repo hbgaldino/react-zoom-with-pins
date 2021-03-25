@@ -2,8 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-import PinchZoomWithPins from "./PinchZoomWithPins";
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -11,4 +9,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-export default PinchZoomWithPins;
+export { default as PinchZoomWithPins } from "./PinchZoomWithPins";
