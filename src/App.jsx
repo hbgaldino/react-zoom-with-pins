@@ -1,4 +1,4 @@
-import PinchZoomWithPins from "./components/PinchZoomWithPins";
+import PinchZoomWithPins from "./PinchZoomWithPins";
 import styled from "styled-components";
 
 const CustomPin = styled.button`
